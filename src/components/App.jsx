@@ -43,8 +43,9 @@ function App() {
     <div>
       <div className="container">
         <div className="heading">
-          <h1>To-Do List</h1>
+          <h1>To-Do List</h1> <br />
         </div>
+        <small className="me">made with ⚛️ by sukhvsingh</small>
         <InputList onAdd={add} />
         <div>
           <ul>

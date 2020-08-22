@@ -4,8 +4,7 @@ export default function InputList(props) {
   const [item, setItem] = useState("");
   const [isEmpty, setEmpty] = useState(false);
   function update(event) {
-    const newValue = event.target.value;
-    newValue[0].toUpperCase();
+    let newValue = event.target.value;
     setItem(newValue);
     setEmpty(false);
   }

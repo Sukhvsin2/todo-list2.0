@@ -5,6 +5,7 @@ export default function InputList(props) {
   const [isEmpty, setEmpty] = useState(false);
   function update(event) {
     const newValue = event.target.value;
+    newValue[0].toUpperCase();
     setItem(newValue);
     setEmpty(false);
   }
@@ -18,6 +19,7 @@ export default function InputList(props) {
         onChange={update}
         type="text"
         value={item}
+        autoComplete="off"
       />
       <button
         onClick={() => {

@@ -77,6 +77,22 @@ li {
   position: relative;
   padding: 0.5rem;
 }
+
+small {
+  font-size: 12px;
+}
+
 .red::-webkit-input-placeholder {
-  color: Blue;
+  color: red;
+}
+
+.clear {
+  margin-top: 10px;
+}
+.btn {
+  background-color: #ff7675;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #bfc0c1;
+  border-radius: 10px;
 }
